@@ -1,0 +1,52 @@
+/* Configuração Geral do Fundo Dark */
+body {
+    background-color: #121212; /* Cor de fundo quase preta */
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Simulando uma tela de celular se aberto no Desktop 
+   (Isso garante que o layout não "quebre" em telas grandes) */
+.mobile-frame {
+    max-width: 480px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Cores Personalizadas para Receita/Gasto (estilo Neon da imagem) */
+.custom-green {
+    color: #00e676; /* Verde mais vibrante que o padrão */
+}
+
+.custom-red {
+    color: #ff1744; /* Vermelho mais vibrante que o padrão */
+}
+
+/* Ajustes de Texto */
+.text-primary {
+    color: #448aff !important; /* Azul claro do topo */
+}
+
+.small-text {
+    font-size: 0.9rem;
+}
+
+/* Botão Flutuante (FAB) - O botão azul grande (+) */
+.fab-button {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+    border: none;
+    background-color: #2979ff;
+}
+
+.fab-button:hover {
+    background-color: #2962ff;
+    transform: scale(1.05); /* Pequeno efeito ao passar o mouse */
+}
